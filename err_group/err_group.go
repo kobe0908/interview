@@ -1,7 +1,7 @@
 package err_group
 
 import (
-	"golang.org/x/net/context"
+	"context"
 	"sync"
 )
 
