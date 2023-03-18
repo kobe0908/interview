@@ -1,9 +1,9 @@
 package main
 
 import (
-	"fmt"
+	"golang.org/x/sync/errgroup"
 )
 
 func main() {
-	fmt.Println("12")
+	_ = errgroup.Group{}
 }
